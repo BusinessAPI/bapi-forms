@@ -1,0 +1,9 @@
+/* My Account > Monitoring: links and submit buttons alike, 44px tap target, full width on phones. */
+.bapi-forms-monitoring-entity { margin-bottom: 2em; }
+.bapi-forms-monitoring-actions { display: flex; flex-wrap: wrap; gap: .75rem; align-items: stretch; margin: 1em 0 0; }
+.bapi-forms-monitoring-actions form { display: flex; margin: 0; }
+.bapi-forms-monitoring-actions .woocommerce-button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin: 0; box-sizing: border-box; text-decoration: none; line-height: 1.2; cursor: pointer; }
+@media (max-width: 600px) {
+	.bapi-forms-monitoring-actions > * { flex: 1 1 100%; }
+	.bapi-forms-monitoring-actions .woocommerce-button { width: 100%; }
+}

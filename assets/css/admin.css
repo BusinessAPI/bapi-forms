@@ -1,0 +1,101 @@
+/* BusinessAPI Forms settings screen. */
+.bapi-forms .wp-heading-inline { margin-right: 8px; }
+.bapi-forms .nav-tab-wrapper { margin-bottom: 16px; }
+.bapi-forms .bapi-forms-intro { margin: 0 0 16px; }
+.bapi-forms tr[hidden] { display: none; }
+.bapi-forms .bapi-forms-badge { display: inline-block; vertical-align: middle; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.bapi-forms .bapi-forms-badge-sandbox { background: #f0f6fc; color: #0a4b78; }
+.bapi-forms .bapi-forms-badge-live { background: #edfaef; color: #00701a; }
+.bapi-forms .bapi-forms-pill { display: inline-block; padding: 1px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; }
+.bapi-forms .bapi-forms-ok { background: #edfaef; color: #00701a; }
+.bapi-forms .bapi-forms-warn { background: #fcf9e8; color: #6e5300; }
+.bapi-forms .bapi-forms-error { background: #fcf0f1; color: #8a2424; }
+.bapi-forms .bapi-forms-neutral { background: #f0f0f1; color: #3c434a; }
+.bapi-forms .bapi-forms-panel { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 20px 24px; margin-bottom: 16px; max-width: 1100px; box-sizing: border-box; }
+.bapi-forms .bapi-forms-panel h2 { margin: 0 0 12px; font-size: 15px; }
+.bapi-forms .bapi-forms-panel h2:not(:first-child) { margin-top: 20px; }
+.bapi-forms .bapi-forms-panel .form-table { margin-top: 0; }
+.bapi-forms .bapi-forms-panel .widefat td { overflow-wrap: anywhere; }
+.bapi-forms .bapi-forms-panel .form-table th { padding-left: 0; }
+.bapi-forms .bapi-forms-cards { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; max-width: 1100px; }
+.bapi-forms .bapi-forms-card { display: flex; align-items: flex-start; gap: 16px; padding: 20px 24px; border-top: 1px solid #f0f0f1; }
+.bapi-forms .bapi-forms-card:first-child { border-top: 0; }
+.bapi-forms .bapi-forms-card-child { padding-left: 72px; background: #fcfcfc; }
+.bapi-forms .bapi-forms-card.is-disabled .bapi-forms-card-title label,
+.bapi-forms .bapi-forms-card.is-disabled .bapi-forms-card-desc { color: #8c8f94; }
+.bapi-forms .bapi-forms-card-icon { flex: none; width: 40px; height: 40px; font-size: 22px; line-height: 40px; text-align: center; border-radius: 8px; background: #f0f0f1; color: #3c434a; }
+.bapi-forms .bapi-forms-card-body { flex: 1; min-width: 0; }
+.bapi-forms .bapi-forms-card-title { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; }
+.bapi-forms .bapi-forms-card-desc, .bapi-forms .bapi-forms-card-reason, .bapi-forms .bapi-forms-card-note, .bapi-forms .bapi-forms-card-meta { margin: 4px 0 0; }
+.bapi-forms .bapi-forms-card-note { color: #50575e; }
+.bapi-forms .bapi-forms-card-reason { color: #8a2424; }
+.bapi-forms .bapi-forms-price { margin: 10px 0 0; padding: 10px 12px; background: #f6f7f7; border-radius: 6px; }
+.bapi-forms .bapi-forms-price p { margin: 4px 0; }
+.bapi-forms input[type="number"].bapi-forms-price-input { width: 110px; }
+.bapi-forms .bapi-forms-price-gov, .bapi-forms .bapi-forms-price-cost { color: #50575e; }
+.bapi-forms .bapi-forms-card-meta code { font-size: 12px; }
+.bapi-forms .bapi-forms-toggle { flex: none; position: relative; display: inline-block; width: 40px; height: 22px; margin-top: 2px; cursor: pointer; }
+.bapi-forms .bapi-forms-toggle input { position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; z-index: 1; }
+.bapi-forms .bapi-forms-toggle-track { position: absolute; inset: 0; border-radius: 999px; background: #c3c4c7; transition: background .15s; }
+.bapi-forms .bapi-forms-toggle-track::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: transform .15s; }
+.bapi-forms .bapi-forms-toggle input:checked + .bapi-forms-toggle-track { background: #2271b1; }
+.bapi-forms .bapi-forms-toggle input:checked + .bapi-forms-toggle-track::after { transform: translateX(18px); }
+.bapi-forms .bapi-forms-toggle input:focus-visible + .bapi-forms-toggle-track { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2271b1; }
+.bapi-forms .bapi-forms-toggle input:disabled { cursor: not-allowed; }
+.bapi-forms .bapi-forms-toggle input:disabled + .bapi-forms-toggle-track { opacity: .5; }
+.bapi-forms .bapi-forms-appearance { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 24px; align-items: start; }
+.bapi-forms #bapi-forms-radius-range { vertical-align: middle; width: 160px; margin-right: 8px; }
+.bapi-forms .bapi-forms-preview { --bp: #2563eb; --br: 8px; --bf: ui-sans-serif, system-ui, sans-serif; font-family: var(--bf); font-size: 14px; color: #111827; border: 1px solid #dcdcde; border-radius: 4px; padding: 16px; background: #fff; }
+.bapi-forms .bapi-forms-preview-label { margin: 0 0 12px; font: 600 11px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; text-transform: uppercase; letter-spacing: .04em; color: #646970; }
+.bapi-forms .bapi-forms-p-field { display: block; margin-bottom: 14px; }
+.bapi-forms .bapi-forms-p-field > span:first-child { display: block; font-weight: 600; margin-bottom: 4px; }
+.bapi-forms .bapi-forms-p-input { display: block; padding: 8px 10px; border: 1px solid #d1d5db; border-radius: var(--br); background: #fff; }
+.bapi-forms .bapi-forms-p-input.is-focused { border-color: var(--bp); box-shadow: 0 0 0 3px color-mix(in srgb, var(--bp) 30%, transparent); }
+.bapi-forms .bapi-forms-p-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.bapi-forms .bapi-forms-p-radio, .bapi-forms .bapi-forms-p-check { flex: none; width: 16px; height: 16px; border: 1px solid #9ca3af; background: #fff; box-sizing: border-box; }
+.bapi-forms .bapi-forms-p-radio { border-radius: 50%; }
+.bapi-forms .bapi-forms-p-radio.is-on { border: 5px solid var(--bp); }
+.bapi-forms .bapi-forms-p-check { border-radius: min(var(--br), 4px); }
+.bapi-forms .bapi-forms-p-check.is-on { background: var(--bp); border-color: var(--bp); position: relative; }
+.bapi-forms .bapi-forms-p-check.is-on::after { content: ""; position: absolute; left: 4px; top: 1px; width: 4px; height: 8px; border: solid var(--bpo, #fff); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.bapi-forms .bapi-forms-p-toggle { flex: none; position: relative; width: 36px; height: 20px; border-radius: 999px; background: #d1d5db; }
+.bapi-forms .bapi-forms-p-toggle.is-on { background: var(--bp); }
+.bapi-forms .bapi-forms-p-toggle::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+.bapi-forms .bapi-forms-p-toggle.is-on::after { left: 18px; }
+.bapi-forms .bapi-forms-recommended[hidden] { display: none; }
+.bapi-forms .bapi-forms-on-primary label { display: inline-flex; align-items: center; gap: 6px; margin-right: 18px; }
+.bapi-forms .bapi-forms-swatch { display: inline-block; width: 14px; height: 14px; border: 1px solid #c3c4c7; border-radius: 3px; }
+.bapi-forms .bapi-forms-p-choices { display: flex; gap: 8px; margin: 4px 0 6px; }
+.bapi-forms .bapi-forms-p-choice { flex: 1; padding: 8px 10px; text-align: center; border: 1px solid #d1d5db; border-radius: var(--br); background: #fff; font-weight: 600; }
+.bapi-forms .bapi-forms-p-choice.is-on { background: var(--bp); border-color: var(--bp); color: var(--bpo, #fff); }
+.bapi-forms .bapi-forms-p-button { display: inline-block; margin-top: 6px; padding: 9px 18px; border-radius: var(--br); background: var(--bp); color: var(--bpo, #fff); font-weight: 600; }
+@media (max-width: 960px) { .bapi-forms .bapi-forms-appearance { grid-template-columns: 1fr; } }
+@media (max-width: 782px) {
+	.bapi-forms .bapi-forms-card { padding: 16px; }
+	.bapi-forms .bapi-forms-card-child { padding-left: 16px; }
+	.bapi-forms .bapi-forms-card-icon { display: none; }
+}
+@media (max-width: 1023px) {
+	.bapi-forms input[type="text"], .bapi-forms input[type="password"], .bapi-forms input[type="number"], .bapi-forms select { font-size: 16px !important; }
+}
+
+/* Help tab. */
+.bapi-forms .bapi-forms-help { max-width: 1100px; }
+.bapi-forms .bapi-forms-acc { margin-bottom: 12px; padding-top: 0; padding-bottom: 0; }
+.bapi-forms .bapi-forms-acc > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
+.bapi-forms .bapi-forms-acc > summary::-webkit-details-marker { display: none; }
+.bapi-forms .bapi-forms-acc > summary h2 { margin: 0; }
+.bapi-forms .bapi-forms-acc > summary::after { content: ""; width: 8px; height: 8px; border-right: 2px solid #50575e; border-bottom: 2px solid #50575e; transform: rotate(45deg); transition: transform .15s; margin-right: 4px; }
+.bapi-forms .bapi-forms-acc[open] > summary::after { transform: rotate(-135deg); }
+.bapi-forms .bapi-forms-acc > summary:focus-visible { outline: 2px solid #2271b1; outline-offset: 2px; }
+.bapi-forms .bapi-forms-acc[open] { padding-bottom: 16px; }
+.bapi-forms .bapi-forms-checklist { margin: 0; }
+.bapi-forms .bapi-forms-checklist li { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.bapi-forms .bapi-forms-done { color: #00a32a; }
+.bapi-forms .bapi-forms-todo { color: #dba617; }
+.bapi-forms .bapi-forms-shortcodes { margin: 12px 0 8px; }
+.bapi-forms .bapi-forms-shortcodes code { margin-right: 6px; }
+.bapi-forms .bapi-forms-muted { background: #f0f0f1; color: #50575e; }
+.bapi-forms .bapi-forms-steps, .bapi-forms .bapi-forms-bullets { margin: 0 0 0 20px; }
+.bapi-forms .bapi-forms-bullets { list-style: disc; }
+.bapi-forms .bapi-forms-steps li, .bapi-forms .bapi-forms-bullets li { margin-bottom: 6px; }

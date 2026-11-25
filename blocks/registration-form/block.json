@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bapi-forms/registration-form",
+	"title": "BusinessAPI Forms: Registration form",
+	"category": "widgets",
+	"icon": "feedback",
+	"description": "Shows a Business API hosted registration form, the same as the [bapi_form] shortcode.",
+	"keywords": [ "bapi", "registration", "company", "abn", "business name" ],
+	"textdomain": "businessapi-forms",
+	"attributes": {
+		"product": {
+			"type": "string",
+			"default": ""
+		},
+		"align": {
+			"type": "string",
+			"default": "wide"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"className": false,
+		"customClassName": false
+	},
+	"editorScript": "bapi-forms-block-editor"
+}
