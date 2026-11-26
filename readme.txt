@@ -1,6 +1,6 @@
 === BusinessAPI Forms ===
 Contributors: businessapi
-Tags: company registration, abn registration, business name registration, asic, woocommerce
+Tags: company registration, abn registration, business name registration, woocommerce, australia
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
