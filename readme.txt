@@ -1,6 +1,6 @@
 === BusinessAPI Forms ===
 Contributors: businessapi
-Tags: abn, asic, company registration, business name, ppsr
+Tags: company registration, abn registration, business name registration, asic, woocommerce
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
@@ -95,9 +95,9 @@ Paid orders from an online gateway. Bank transfer and cheque orders are released
 == Screenshots ==
 
 1. Company registration form, hosted by Business API, on a partner page.
-2. The same form on a phone.
+2. The ABN form on a phone.
 3. Cart with one line per application and the government fee as a separate fee.
-4. Application status, documents and amend button in My Account.
+4. Application status and documents in My Account.
 5. Order screen with the BusinessAPI Forms box: status, request IDs and the ASIC fee action.
 6. Settings: products, service fees and the partner's Business API cost.
 
